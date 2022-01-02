@@ -8,7 +8,5 @@ for (const key in app) {
     console.log(`${key} => ${app[key]}`);
 }
 
-function square(n) {
-    return n * n;
-}
+const square = (n) => n * n;
 console.log(square(4));
