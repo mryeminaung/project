@@ -7,3 +7,8 @@ let app = {
 for (const key in app) {
     console.log(`${key} => ${app[key]}`);
 }
+
+function square(n) {
+    return n * n;
+}
+console.log(square(4));
